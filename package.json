@@ -1,0 +1,27 @@
+{
+  "name": "cirru-script-loader",
+  "version": "0.0.2",
+  "description": "CirruScript Webpack loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cirru-script",
+    "webpack"
+  ],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "dependencies": {
+    "cirru-script": "^0.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cirru/cirru-script-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cirru/cirru-script-loader/issues"
+  },
+  "homepage": "https://github.com/Cirru/cirru-script-loader"
+}
