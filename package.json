@@ -1,6 +1,6 @@
 {
   "name": "cirru-script-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CirruScript Webpack loader",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "author": "jiyinyiyong",
   "license": "MIT",
   "dependencies": {
-    "cirru-script": "^0.1.1"
+    "cirru-script": "^0.1.1",
+    "loader-utils": "^0.2.6"
   },
   "devDependencies": {},
   "repository": {
