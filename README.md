@@ -2,25 +2,27 @@
 CirruScript Webpack Loader
 ----
 
-This project is in early stage. Add an issue if you find bugs. PRs are welcome.
-
 ### Usage
 
-```
+```text
 npm i --save-dev cirru-script-loader
 ```
 
-```js
-require('cirru-script!demo.cirru')
-```
-
-or
+use in `webpack.config.js`:
 
 ```js
 loaders: [
   { test: /\.cirru$/, loader: "cirru-script-loader" }
 ]
 ```
+
+or in code:
+
+```js
+require('cirru-script!demo.cirru')
+```
+
+Add issues if you find bugs. PRs are welcome.
 
 Read more at Webpack loader docs: http://webpack.github.io/docs/using-loaders.html
 
