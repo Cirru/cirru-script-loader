@@ -11,15 +11,11 @@ npm i --save-dev cirru-script-loader
 use in `webpack.config.js`:
 
 ```js
-loaders: [
-  { test: /\.cirru$/, loader: "cirru-script-loader" }
-]
-```
-
-or in code:
-
-```js
-require('cirru-script!demo.cirru')
+module: {
+  rules: [
+    { test: /\.cirru$/, use: "cirru-script-loader" }
+  ]
+}
 ```
 
 Add issues if you find bugs. PRs are welcome.
