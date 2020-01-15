@@ -1,6 +1,6 @@
 {
   "name": "cirru-script-loader",
-  "version": "0.5.5-a1",
+  "version": "0.5.5",
   "description": "CirruScript Webpack loader",
   "main": "index.js",
   "scripts": {
